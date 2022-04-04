@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  margin-bottom: 60px;
+}
+.topics {
+  color: rgb(56, 174, 221);
+  margin-bottom: 25px;
+  padding: 10px;
+}
+p {
+  margin: 30px 0;
+  width: 100%;
+  line-height: 30px;
+}
+.company-titel,
+.project-name,
+.education-school,
+.language-knowledge,
+.it-skills {
+  padding: 10px;
+}
+.company-titel h1,
+.education-school h1 {
+  text-transform: uppercase;
+}
+.language-knowledge span,
+.it-skills span {
+  display: block;
+  padding: 5px 0;
+}
+.text-content {
+  text-align: start;
+  margin: auto 50px;
+}
+.header h1 {
+  text-transform: uppercase;
+}
+.header .photo img {
+  width: 250px;
+  height: 150px;
+  border-radius: 90%;
+}
+
+.main-section {
+  display: flex;
+}
+
+.main-section .left-section,
+.main-section .right-section {
+  border-left: 2px dashed gray;
+}
